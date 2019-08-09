@@ -55,24 +55,24 @@ Follow these steps to set up and work on your project:
 - [X] Implement the project on this Branch, **committing progress & changes often.**
 - [X] Push commits: `git push origin <firstName-lastName>`.
 - [X] Navigate to the BE folder in this repository (this is where your server is located) from the command line, install the dependencies, and run `yarn start` or `npm start` to spin up the server provided for you.
-- [ ] In the terminal, navigate back to the main folder, then into the `client` folder.
-- [ ] Create your React app here.
+- [X] In the terminal, navigate back to the main folder, then into the `client` folder.
+- [X] Create your React app here.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request.
-- [ ] PM then will count the HW as done by merging the branch back into master.
+- [X] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo).
+- [X] Add your Project Manager as a Reviewer on the Pull-request.
+- [X] PM then will count the HW as done by merging the branch back into master.
 
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
 
-- [ ] A registration form built with formik - include inputs for a `username` and a `password`
-- [ ] Form validation using Yup
-- [ ] At least one class component (I would challenge you to make the form a class!)
+- [X] A registration form built with formik - include inputs for a `username` and a `password`
+- [X] Form validation using Yup
+- [X] At least one class component (I would challenge you to make the form a class!)
 - [ ] Tests for at least one element, one event, and one unit test for a function
-- [ ] A POST request made from the registration form to `http://localhost:5000/api/register` to add a user - the request body should have the following shape:
+- [X] A POST request made from the registration form to `http://localhost:5000/api/register` to add a user - the request body should have the following shape:
 
 ```js
 {

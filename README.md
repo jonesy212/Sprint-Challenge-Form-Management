@@ -24,28 +24,37 @@ In the challenge for this Sprint, you will demonstrate proficiency by creating a
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What are the required parts of class components?
+- [X] What are the required parts of class components?
+        render, return, class
 
-- [ ] Name at least three lifecycle methods?
+- [X] Name at least three lifecycle methods?
 
-- [ ] Why are forms used so often in web applications and software?
+        compounentDidMount, componentDidUnmount, ComponentDidUpdate
 
-- [ ] What advantages are there by using a forms library like Formik?
+- [X] Why are forms used so often in web applications and software?
 
-- [ ] Why do we write tests for our apps?
+        It provides a way to gather information from users 
+    
+- [X] What advantages are there by using a forms library like Formik?
+
+        Formik does a lot on the back end to eleminate you having to create the state-management and handleChanges.
+
+- [X] Why do we write tests for our apps?
+
+        we write test for app because it is a great way to double check your work and also when the apps become more robust, to be able to find where errors are and also enhance user experience by ensuring what the code is supposed to be doing it is showing up on the front end. 
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
-- [ ] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
+- [X] Create a forked copy of this project.
+- [X] Add PM as collaborator on Github.
+- [X] Clone your OWN version of Repo. **(Not Lambda's by mistake!)**
+- [X] Create a new Branch locally: `git checkout -b <firstName-lastName>`.
 
-- [ ] Implement the project on this Branch, **committing progress & changes often.**
-- [ ] Push commits: `git push origin <firstName-lastName>`.
-- [ ] Navigate to the BE folder in this repository (this is where your server is located) from the command line, install the dependencies, and run `yarn start` or `npm start` to spin up the server provided for you.
+- [X] Implement the project on this Branch, **committing progress & changes often.**
+- [X] Push commits: `git push origin <firstName-lastName>`.
+- [X] Navigate to the BE folder in this repository (this is where your server is located) from the command line, install the dependencies, and run `yarn start` or `npm start` to spin up the server provided for you.
 - [ ] In the terminal, navigate back to the main folder, then into the `client` folder.
 - [ ] Create your React app here.
 

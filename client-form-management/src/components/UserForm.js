@@ -32,7 +32,7 @@ const UserForm = ({errors, touched, status}) => {
                         name = 'password'
                         placeholder = 'Password' 
                     />
-                    {touched.password && errors.password && (
+                     {touched.password && errors.password && (
                         <p className = 'error'>{errors.password}</p>
                     )}
                 </Form>

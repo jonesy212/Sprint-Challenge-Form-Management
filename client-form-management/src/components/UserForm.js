@@ -36,9 +36,12 @@ const UserForm = ({errors, touched, status}) => {
                         <p className = 'error'>{errors.password}</p>
                     )}
                 </Form>
-                {users.map((user, index) => (
-                    <p key={index}>{user.username}</p>
-                ))}
+                <div className='white-space'>
+                    {users.map((user, index) => (
+                        <p key={index}>{user.username}</p>
+                        
+                    ))}
+                </div>
             </div>
         )
     }
@@ -72,7 +75,7 @@ export default FormikUserForm
 
 
 
-
+//split ('\n').map line 39 possibility
 // import React, {useState, useEffect} from 'react';
 // import {withFormik, Form, Field } from 'formik'
 // import axios from 'axios'

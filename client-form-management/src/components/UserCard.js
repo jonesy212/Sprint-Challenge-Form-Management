@@ -1,5 +1,7 @@
 import React  from 'react'
 
+import './UserCard.css';
+
 
 class UserCard extends React.Component {
     constructor(props){
@@ -10,9 +12,11 @@ class UserCard extends React.Component {
     render() {
         console.log(this.props.userData)
         return(
-            <div>
-                <p>{this.props.name}</p>
-                <p>{this.props.ingredients}</p>
+            <div className='individual-cards'>
+                <p className= 'ingredient-title'>{this.props.name}</p>
+                <div style={{'whiteSpace':'pre-line'}}>
+                <p>{[this.props.ingredients.join('\n')]}</p>
+                </div>
             </div>
         )
     }
